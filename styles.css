@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div {
+    width: 420px;
+    height: 800px;
+    background-image: url(/images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-div {
+    width: 600px;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-div {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 194px;
+}
+
+.odin-logo {
+    height: 90%;
+}
+
+.odin-text {
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+    font-size: 64px;
+}
+
+.photo-credit {
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.photo-credit a:link {
+    color: white;
+}
+
+.photo-credit a:visited {
+    color: white;
+}
+
+.input_info label,
+.input_info input {
+    display: block;
+}
+
+.input_info input {
+    width: 204px;
+}
+
+.no_button_div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    box-shadow: 3px 3px 8px lightgray;
+    column-gap: 3.5rem;   
+    margin-top: 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+legend {
+    flex: 0 0 100%;
+}
+
+.input_info {
+    margin-bottom: 1.25rem;
+    flex: 1;
+    letter-spacing: 2px;
+    font-size: 0.6rem;
+    padding: 0;
+}
+
+.input_info input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 0.2rem 0.5rem;
+}
+
+.input_info input:invalid {
+    border: 1px solid rgb(214, 0, 0);
+}
+
+.input_info input:focus {
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+button {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 40px;
+    background-color: #596D48;
+    color: white;
+    padding: 0.75rem 2.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 3px 3px 8px lightgray;
+}
+
+.right-div a:link {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right-header,
+.right-div p {
+    margin-left: 40px;
+}
